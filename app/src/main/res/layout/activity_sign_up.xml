@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bottom_line"
+        android:fontFamily="@font/RopaSans-Regular"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bottom_line"
+        android:fontFamily="@font/RopaSans-Regular"
+        android:hint="Firstname"
+        android:inputType="text"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bottom_line"
+        android:fontFamily="@font/RopaSans-Regular"
+        android:hint="Lastname"
+        android:inputType="text"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bottom_line"
+        android:fontFamily="@font/RopaSans-Regular"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordsignup"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bottom_line"
+        android:fontFamily="@font/RopaSans-Regular"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bottom_line"
+        android:fontFamily="@font/RopaSans-Regular"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/signupcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Signup"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/blackbuttonbackground"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/RopaSans-Regular"/>
+
+</LinearLayout>
